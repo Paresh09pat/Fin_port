@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const URI =
-  "mongodb+srv://GoFood:Paresh2411@cluster0.bzdqtiy.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0";
+const URI = process.env.MONGOURI;
 
 const connectDb = async () => {
   try {
