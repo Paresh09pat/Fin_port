@@ -1,0 +1,140 @@
+/* Contact.css */
+.main-container{
+  box-sizing: border-box;
+  background-color: rgb(229, 36, 36);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /* background-image: url("https://themewagon.github.io/proman/img/bg-header.png"); */
+  background-size: 30% 50%;
+  background-repeat: no-repeat;
+}
+
+.contactMain-container{
+  box-sizing: border-box;
+width: 50%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.follow-container{
+  box-sizing: border-box;
+  width: 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-container {
+  box-sizing: border-box;
+    width: 700px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  .form-input:focus, .form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .form-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%;
+    margin-inline: auto;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fallowme{
+    color: white;
+    /* text-align: center; */
+    margin-bottom: 40px;
+  }
+
+  .logo_main{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+  }
+
+  .logo_sub{
+    width: 30%;
+    /* text-align: center; */
+    /* border: 1px solid white; */
+    margin-bottom: 50px;
+  }
+
+  .contactMe{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .getintouch{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .rock{
+    font-size: 35px;
+    margin-left: 10px;
+  }
