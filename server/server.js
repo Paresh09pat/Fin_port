@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express")
 const connectDb = require("./utils/db")
 const conRoute =  require("./router/contact-router")

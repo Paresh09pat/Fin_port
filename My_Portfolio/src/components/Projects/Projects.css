@@ -1,75 +1,123 @@
-.whole_main_pro{
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 100px;
+.whole_main_pro {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 
-.myprojects{
-    text-align: center;
-    margin-bottom:30px;
-    font-size: 45px;
-    color: #8b008b;
-    text-shadow: 5px 3px 3px red;
+.myprojects {
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 45px;
+  color: #8b008b;
+  text-shadow: 2px 2px 2px red;
 }
 
 .projectlink {
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 1px 1px 20px rgb(250, 4, 70);
-    color: white;
-    font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgb(250, 4, 70);
+  color: white;
+  font-size: 18px;
 }
 
-.text_size{
-    font-size: 18px;
+.discrip_div {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  width: 85%;
+  min-height: 50%;
+  margin-top: 25px;
+  color: white;
+  font-size: 17px;
+  line-height: 23px;
 }
 
-.disc{
-    margin-bottom: 20px;
+.text_clr{
+  color: #FFC448;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .projectlink:hover {
-    box-shadow: 1px 1px 20px rgb(243, 243, 81);
+  box-shadow: 1px 1px 20px rgb(243, 243, 81);
 }
 
-.com_div{
-    display: flex;
-    width: 65%;
-    margin-inline: auto;
-    min-height: 300px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 10px 2px red;
+.image_section {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
 }
 
-.com_subdiv1{
-    border-right: 1px solid red;
-    width: 38%;
-    border-radius: 15px  0 0 15px;
+#main_card_item {
+  flex-wrap: wrap;
+  width: 75%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.com_subdiv2{
-    /* border: 1px solid rgb(217, 255, 0); */
-    width: 62%;
-    border-radius: 0 15px 15px 0;
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
-    padding: 30px 50px 30px 50px;
-    line-height: 35px;
+.card {
+  box-sizing: border-box;
+  position: relative;
+  width: 32%;
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
-.head{
-    text-align: center;
-    font-size: 28px;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(98, 68, 197, .9);
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-.image_section{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px  0 0 15px; 
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.btn_positioning{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.btnnn {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(116, 88, 206, 0.9);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #FFC448;
+  font-size: 26px;
+}
+
+.btnnn:hover{
+  box-shadow: 0 0 5px 2px #FFC448;
+}
+
+.linkicon {
+  color: #FFC448;
 }

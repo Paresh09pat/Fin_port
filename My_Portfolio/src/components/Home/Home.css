@@ -1,16 +1,16 @@
 .home-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-  }
-  
-  .text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.text-section {
   width: 50%;
   min-height: 100vh;
   box-sizing: border-box;
@@ -23,96 +23,113 @@
   background-repeat: no-repeat;
   /* border: 1px solid red; */
   padding-left: 50px;
+}
+
+.com_adjust {
+  width: 75%;
+}
+
+.name {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-family: "Dancing Script", cursive;
+}
+
+.iam {
+  color: #6244C5;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 1rem;
+  color: #131313;
+  font-weight: 450;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #ff6347;
+  width: 2px;
+  height: 2rem;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    opacity: 1;
   }
 
-  .com_adjust{
-    width: 75%;
+  51%,
+  100% {
+    opacity: 0;
   }
-  
-  .name {
-    font-size: 50px;
-    margin-bottom: 1rem;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 900;
-    font-family: "Dancing Script", cursive;
-  }
+}
 
-  .iam{
-    color: #6244C5;
-    font-size: 35px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  .title {
-    font-size: 35px;
-    margin-bottom: 1rem;
-    color: #131313; 
-    font-weight: 450;
-  }
-  
-  .cursor {
-    display: inline-block;
-    background-color: #ff6347; 
-    width: 2px;
-    height: 2rem; 
-    animation: blink 0.7s infinite;
-  }
-  
-  @keyframes blink {
-    0%, 50% {
-      opacity: 1;
-    }
-    51%, 100% {
-      opacity: 0;
-    }
-  }
-  
-  .description {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #666;
-  }
-  
-  .image-section {
-   width: 50%;
-   min-height: 100vh;
-   background-image: url("https://themewagon.github.io/proman/img/bg-header.png");
-   background-repeat: no-repeat;
-   transform: rotate(180deg);
-   background-size: 50% 40%;
-  }
-  
-  .profile-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .myresume1 {
-    width: 250px;
-    margin-top: 30px;
-    border: 0px solid orangered;
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 20px;
-    animation: bounce 0.9s alternate infinite;
-    cursor: pointer;
-    background-color: #64529e;
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.image-section {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url("https://themewagon.github.io/proman/img/bg-header.png");
+  background-repeat: no-repeat;
+  /* rotate: 180deg; */
+  background-size: 50% 40%;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  display: flex;
+ background-position-x: left;
+ background-position-y: top;
+ rotate: 180deg;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  rotate: 180deg;
+  /* border: 1px solid red; */
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  bottom: 15%;
+  right: -5%;
+  /* margin-left: 20%; */
+
+}
+
+.myresume1 {
+  width: 250px;
+  margin-top: 30px;
+  border: 0px solid orangered;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px;
+  animation: bounce 0.9s alternate infinite;
+  cursor: pointer;
+  background-color: #64529e;
 }
 
 @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    100% {
-        transform: translateY(-15px);
-        box-shadow: 3px 3px 5px red;
-    }
+  100% {
+    transform: translateY(-15px);
+    box-shadow: 3px 3px 5px red;
+  }
 }
 
 .resumetext1 {

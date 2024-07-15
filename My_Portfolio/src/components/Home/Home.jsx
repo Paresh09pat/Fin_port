@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
 import './Home.css';
+
 
 const Home = () => {
     const [text, setText] = useState("");
@@ -73,7 +73,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="image-section">
-                {/* <img src={profileImage} alt="Profile" className="profile-image" /> */}
+                 <img src="/mypicture.png" alt="Profile" className="profile-image" />
             </div>
         </div>
     );
